@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.download_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 60px 20px;
+    padding: 80px 30px 0px 30px;
+}
+.download_items{
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px #3fc3fd;
+    transition: 0.5s;
+}
+.download_items:hover{
+    transform: scale(0.9, 0.9);
+}
+.download_items>img{
+    position: relative;
+    top:-35px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dwnld_content>p{
+    position: relative;
+    top: 0px;
+    margin: 0px 0px 12px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dwnld_content>a>button{
+    padding: 5px;
+    font-weight: bold;
+    margin: 0px 0px 20px 10px;
+}
+button#btn1{
+    border: 2px solid rgb(63, 63, 143);
+    color: blue;
+}
+button#btn2{
+    border: 2px solid rgb(173, 173, 26);
+    color:rgb(173, 173, 26);
+}
+button#btn3{
+    border: 2px solid red;
+    color: red;
+}
+button#btn4{
+    border: 2px solid green;
+    color: green;
+}
